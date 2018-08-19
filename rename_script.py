@@ -1,8 +1,10 @@
+
+#VERSION 1 
 import os
 
 os.chdir('F:\Tutorial\python\chorey shafer\python\Flask') # change the dirictory here 
 for file in os.listdir():
-	#print(os.path.splitext(file))
+	
 	f_name,f_ext = os.path.splitext(file)
 	p_name,p_name_1,v_name_num,v_name,v_id = f_name.split('-')
 	video_name,video_num = v_name_num.split('Part')
@@ -19,7 +21,7 @@ for file in os.listdir():
 
 	os.rename(file,newFile)
 
-# i have a problems with 
+ 
 
 
 
