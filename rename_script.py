@@ -2,7 +2,7 @@
 #VERSION 1 
 import os
 
-os.chdir('F:\Tutorial\python\chorey shafer\python\Flask') # change the dirictory here 
+os.chdir('DIRICTORY_NAME _AND_LOCATION') # change the dirictory here 
 for file in os.listdir():
 	
 	f_name,f_ext = os.path.splitext(file)
