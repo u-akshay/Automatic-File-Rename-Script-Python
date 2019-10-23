@@ -15,6 +15,7 @@ for file in os.listdir():
 	p_name_1 = p_name_1.strip()
 	v_name_num = v_name_num.strip()
 	v_name = v_name.strip()
+	#the following option is to strip 
 	v_id = v_id.strip()
 	
 	newFile = '{}-{}.{}'.format(video_num,v_name,f_ext)
